@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01-HTML</title>
+</head>
+<body>
+    <!--Esto es un cometario-->
+    <!--Etiquetas de Encabezado-->
+    <h1>01 - Introducción  HTML</h1>
+    <h2>Generations México</h2>
+    <!--
+    <h3>Cohorte 43</h3>
+    <h4>Instructores y mentores</h4>
+    <h5>Participantes</h5>
+    <h6>Julio2024</h6>
+    -->
+
+    <!--Etiqueta de párrafo, para definir los parrafos-->
+    <p>
+        Adios tonotos
+    </p>
+    <!--Elemento de linea de separación-->
+    <hr>
+    <!--Elemento para salto de linea-->
+    <br>
+    <!--Etiquetas para formato de texto: <b></b>, <i></i>, <-->
+    <p>Hola <i>tonotos</i></p>
+    <!--Etiqueta de imagen <img>, esta etiqueta solo es de apertura y de atributos que nos permitan establecer propiedades-->
+    <img src="https://pbs.twimg.com/profile_images/917481867976331264/uy_YTm-i_400x400.jpg" alt="logo rosa de genmx" width="150px" height="120px">
+    <!--ruta relativa-->
+    <img src="./assets/tSWX4NrB_200x200.png" alt="Logo azul de genmx" width="100" height="150px">
+
+    <!--Etiqueta de anchor (anclaje) <a><!a>, nos permite crear un hipervinculos desde cualquier elemento HTML vinculado a una ruta -->
+    <a href="https://www.univision.com/entretenimiento/geek/los-10-mejores-animes-en-los-ultimos-10-anos-sugoi-grand-prix?utm_source=facebook&utm_medium=social&utm_campaign=BtngES_PP_Latam_BtngEntretenimiento_Automated_MejorRendimiento&utm_content=201726729873654_1204954086217575&utm_id=57fbbd44551b2fe60a8b46b9" target="_blank">Este es un enlace</a>
+    
+    <a href="https://www.google.com/?hl=es" target="_blank">Este es un enlace</a>
+    <!-- Salto de línea para dividir las dos etiquetas de anclaje -->
+    <br>
+    <a href="https://mexico.generation.org/" target="_blank">
+        <img src="./assets/tSWX4NrB_200x200.png" width="80px" alt="logo_azul_hipervinculo">
+    </a>
+    <a href="https://code.visualstudio.com/docs" target="_blank">
+        <p>Nuevo hipervínculo</p>
+    </a>
+
+    <hr>
+
+    <!--Etiqueta de lista. Podemos tener dos tipos de lista, ordenada y desordenada.
+    Cada tipo de lista necesita items que viven dentro de ellas.
+    <ul></ul> lista desordenada (muestra viñetas sin jerarquia)
+    <ol></ol> lista ordenada (muestra viñetas con jerarquia)
+    <li></li> item de lista--> <!--code para poner palabras reservadas como textoZ-->
+    <h2>Etiquetas de lista <code>&lt;p&gt;&lt;/p&gt;</code></h2>
+    <h2>Etiqueta de lista</h2>
+    <ul>lista desordenada
+        <li>Tomates</li>
+        <li>Cebollas</li>
+        <li>Limones</li>
+    </ul>
+    <ol>
+        <li>Gringa de pastor</li>
+        <li>picaña</li>
+        <li>Sincronizadas</li>
+    </ol>
+    <ol type="A">
+        <li>Seccion A</li>
+        <li>Seccion B</li>
+        <li>Seccion C</li>
+    </ol>
+    <!--Aqui va el codigo del menu de taqueria-->
+    <p>Menú de taquería</p>
+    <ol type="I">
+        <li>Tacos
+            <ul>
+                <li>
+                    <a href="https://www.comedera.com/wp-content/uploads/2017/08/tacos-al-pastor-receta.jpg" target="_blank">Pastor</a>
+                </li>
+                <li>
+                    <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz65jiYC_T7uKSOAhVnD6sxq7ksf3-SohkeA&s" target="_blank">Sirloin</a>
+                </li>
+                <li>
+                    <a href="https://alabio.mx/imagenes/tacos-asada-eventos-puebla-2371.jpg" target="_blank">Asada</a>
+                </li>
+            </ul>
+        </li>
+        <li>Gringas
+            <ol>
+                <li>Pastor</li>
+                <li>Combinada</li>
+                <li>Longaniza</li>
+            </ol>
+        </li>
+        <li>Tortas</li>
+            <ul>
+                <li>Pastor con queso</li>
+            </ul>
+        <li>Especialidades</li>
+        <li>Bebidas</li>
+    </ol>
+    <!--Etiquetas div y span
+    div. Etiqueta divisora que permite contener otros elementos sin afectarlos 
+    directamente. POdemos anidar todos los divs que queramos sin problemas 
+    -Span. Etiqueta divisora en linea que permite rodear parte del elemento 
+    dentro de -->
+    
+    <h2>Etiquetas div y span</h2>
+    <div>
+        <p>Primer parrafo</p>
+        <div>
+            <p>Parrafo anidado 1</p>
+            <p>Parrafo anidado 2</p>
+        </div>
+    </div>
+    <p>Segundo parrafo</p>
+
+</body>
+</html>
